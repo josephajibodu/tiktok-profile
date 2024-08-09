@@ -1,0 +1,36 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: antiquewhite;
+}
+
+img {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.profile-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+} 
+
+h1,h2 {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.stats {
+    display: flex;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.bio {
+    margin-bottom: 12px;
+}
